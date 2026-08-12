@@ -1,1 +1,2036 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/chunks/0zg8zj66ujb_9.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/12bzaj77oym1c.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/12~usqdainvq5.js"/><script src="/_next/static/chunks/146rw096sf~36.js" async=""></script><script src="/_next/static/chunks/16rqwmxee8hc2.js" async=""></script><script src="/_next/static/chunks/0~7vc3s~w7l4g.js" async=""></script><script src="/_next/static/chunks/turbopack-17xtdfcpm8qer.js" async=""></script><script src="/_next/static/chunks/0y8_vpcjh-bqf.js" async=""></script><script src="/_next/static/chunks/01xlw8hd842-c.js" async=""></script><script src="/_next/static/chunks/0d3shmwh5_nmn.js" async=""></script><script src="/_next/static/chunks/16vgdf1dv9v1s.js" async=""></script><script src="/_next/static/chunks/0dmuiku165hrq.js" async=""></script><meta name="theme-color" content="#06060C" media="(prefers-color-scheme: light)"/><meta name="theme-color" content="#06060C" media="(prefers-color-scheme: dark)"/><meta name="color-scheme" content="dark"/><title>VunaFlow — Monetize Your WiFi On Autopilot | MikroTik &amp; M-Pesa</title><meta name="description" content="Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya."/><meta name="application-name" content="VunaFlow"/><meta name="author" content="VunaFlow Software"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="keywords" content="MikroTik hotspot,M-Pesa hotspot,ISP billing software,captive portal,RouterOS automation,WiFi monetization Kenya,Daraja STK Push,hotspot voucher system,PPPoE management,VunaFlow"/><meta name="creator" content="VunaFlow Software"/><meta name="publisher" content="VunaFlow Software"/><meta name="robots" content="index, follow"/><meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/><meta name="category" content="Networking Software"/><link rel="canonical" href="https://vunaflow.co.ke"/><meta name="format-detection" content="telephone=no, address=no, email=no"/><meta property="og:title" content="VunaFlow — Monetize Your WiFi On Autopilot"/><meta property="og:description" content="Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya."/><meta property="og:url" content="https://vunaflow.co.ke"/><meta property="og:site_name" content="VunaFlow"/><meta property="og:locale" content="en_KE"/><meta property="og:image" content="https://vunaflow.co.ke/opengraph-image?2296bc84b642edec"/><meta property="og:image:type" content="image/png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="VunaFlow — MikroTik ISP automation platform"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:creator" content="@vunaflow"/><meta name="twitter:title" content="VunaFlow — Monetize Your WiFi On Autopilot"/><meta name="twitter:description" content="Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya."/><meta name="twitter:image" content="https://vunaflow.co.ke/opengraph-image"/><link rel="icon" href="/icon"/><link rel="apple-touch-icon" href="/icon"/><script src="/_next/static/chunks/03~yq9q893hmn.js" noModule=""></script><script src="/_aistudio-iframe.js?v=2f1c016a"></script></head><body><div hidden=""><!--$--><!--/$--></div><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://vunaflow.co.ke/#organization","name":"VunaFlow","url":"https://vunaflow.co.ke","logo":"https://vunaflow.co.ke/icon","description":"MikroTik hotspot automation platform with M-Pesa STK Push payments for ISPs across Kenya.","areaServed":{"@type":"Country","name":"Kenya"}},{"@type":"SoftwareApplication","@id":"https://vunaflow.co.ke/#software","name":"VunaFlow","applicationCategory":"BusinessApplication","applicationSubCategory":"ISP Management Software","operatingSystem":"Web","description":"Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya.","url":"https://vunaflow.co.ke","publisher":{"@id":"https://vunaflow.co.ke/#organization"},"offers":[{"@type":"Offer","name":"VunaFlow Dashboard","price":"500","priceCurrency":"KES","priceSpecification":{"@type":"UnitPriceSpecification","price":"500","priceCurrency":"KES","unitCode":"MON","referenceQuantity":{"@type":"QuantitativeValue","value":1,"unitCode":"MON"}}},{"@type":"Offer","name":"One-time installation (optional)","price":"1000","priceCurrency":"KES"}],"featureList":["M-Pesa Daraja STK Push","Zero-touch MikroTik router provisioning","Branded captive portal designer","Bandwidth-tiered package management","Voucher generation and bulk import","Multi-tenant agent dashboards","Live revenue and session analytics"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What happens after the 3-day free trial?","acceptedAnswer":{"@type":"Answer","text":"Pick any plan and keep going. If you don't, your routers and customer-facing portal stay live, but admin features pause until you reactivate. Nothing is auto-charged — we ask before billing."}},{"@type":"Question","name":"Which MikroTik routers are supported?","acceptedAnswer":{"@type":"Answer","text":"Anything running RouterOS v6.45+ with API access enabled. We've tested across the RB750, RB951, hAP, and CCR series."}},{"@type":"Question","name":"What are the M-Pesa transaction fees?","acceptedAnswer":{"@type":"Answer","text":"Safaricom Daraja charges its standard transaction rate, billed directly to you by Safaricom. VunaFlow takes no cut of customer payments — your monthly subscription is the only thing you pay us."}},{"@type":"Question","name":"Is customer payment data secure?","acceptedAnswer":{"@type":"Answer","text":"All Daraja API credentials are encrypted at rest. Customer phone numbers are stored only as long as needed to issue receipts and reconcile sessions. We never sell or share data with third parties."}},{"@type":"Question","name":"Can I import existing voucher batches?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Vouchers page supports CSV bulk-import for existing codes, and you can generate new print-ready batches from inside the dashboard."}},{"@type":"Question","name":"Do you offer setup help?","acceptedAnswer":{"@type":"Answer","text":"Every plan includes guided onboarding documentation. Growth and Scale plans also include free router-config calls so we can walk you through your first hotspot setup live."}},{"@type":"Question","name":"Can I cancel anytime?","acceptedAnswer":{"@type":"Answer","text":"Yes — cancel from the Billing page in one click. No long-term contracts, no early-termination fees."}}]}]}</script><div class="Login-module__mqJLHq__loadingWrap" role="status" aria-live="polite" aria-label="Loading VunaFlow"><div class="Login-module__mqJLHq__loadingMark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:30px;height:30px;color:#fff"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg></div><div class="Login-module__mqJLHq__loadingBrand">VunaFlow</div><div class="Login-module__mqJLHq__loadingDots"><span></span><span></span><span></span></div></div><!--$--><!--/$--><noscript><footer style="padding:24px 32px;text-align:center;font-size:14px;line-height:1.6;color:#94a3b8;background:#06060C;border-top:1px solid rgba(255,255,255,0.08)"><nav aria-label="Legal"><a href="/about" style="color:#94a3b8;margin:0 10px">About</a><a href="/contact" style="color:#94a3b8;margin:0 10px">Contact</a><a href="/privacy" style="color:#94a3b8;margin:0 10px">Privacy Policy</a><a href="/terms" style="color:#94a3b8;margin:0 10px">Terms of Service</a></nav></footer></noscript><script src="/_next/static/chunks/12~usqdainvq5.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n8:I[68027,[\"/_next/static/chunks/0y8_vpcjh-bqf.js\"],\"default\",1]\n:HL[\"/_next/static/chunks/0zg8zj66ujb_9.css\",\"style\"]\n:HL[\"/_next/static/chunks/12bzaj77oym1c.css\",\"style\"]\n2:Td5f,"])</script><script>self.__next_f.push([1,"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://vunaflow.co.ke/#organization\",\"name\":\"VunaFlow\",\"url\":\"https://vunaflow.co.ke\",\"logo\":\"https://vunaflow.co.ke/icon\",\"description\":\"MikroTik hotspot automation platform with M-Pesa STK Push payments for ISPs across Kenya.\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"Kenya\"}},{\"@type\":\"SoftwareApplication\",\"@id\":\"https://vunaflow.co.ke/#software\",\"name\":\"VunaFlow\",\"applicationCategory\":\"BusinessApplication\",\"applicationSubCategory\":\"ISP Management Software\",\"operatingSystem\":\"Web\",\"description\":\"Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya.\",\"url\":\"https://vunaflow.co.ke\",\"publisher\":{\"@id\":\"https://vunaflow.co.ke/#organization\"},\"offers\":[{\"@type\":\"Offer\",\"name\":\"VunaFlow Dashboard\",\"price\":\"500\",\"priceCurrency\":\"KES\",\"priceSpecification\":{\"@type\":\"UnitPriceSpecification\",\"price\":\"500\",\"priceCurrency\":\"KES\",\"unitCode\":\"MON\",\"referenceQuantity\":{\"@type\":\"QuantitativeValue\",\"value\":1,\"unitCode\":\"MON\"}}},{\"@type\":\"Offer\",\"name\":\"One-time installation (optional)\",\"price\":\"1000\",\"priceCurrency\":\"KES\"}],\"featureList\":[\"M-Pesa Daraja STK Push\",\"Zero-touch MikroTik router provisioning\",\"Branded captive portal designer\",\"Bandwidth-tiered package management\",\"Voucher generation and bulk import\",\"Multi-tenant agent dashboards\",\"Live revenue and session analytics\"]},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What happens after the 3-day free trial?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Pick any plan and keep going. If you don't, your routers and customer-facing portal stay live, but admin features pause until you reactivate. Nothing is auto-charged — we ask before billing.\"}},{\"@type\":\"Question\",\"name\":\"Which MikroTik routers are supported?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Anything running RouterOS v6.45+ with API access enabled. We've tested across the RB750, RB951, hAP, and CCR series.\"}},{\"@type\":\"Question\",\"name\":\"What are the M-Pesa transaction fees?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Safaricom Daraja charges its standard transaction rate, billed directly to you by Safaricom. VunaFlow takes no cut of customer payments — your monthly subscription is the only thing you pay us.\"}},{\"@type\":\"Question\",\"name\":\"Is customer payment data secure?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"All Daraja API credentials are encrypted at rest. Customer phone numbers are stored only as long as needed to issue receipts and reconcile sessions. We never sell or share data with third parties.\"}},{\"@type\":\"Question\",\"name\":\"Can I import existing voucher batches?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The Vouchers page supports CSV bulk-import for existing codes, and you can generate new print-ready batches from inside the dashboard.\"}},{\"@type\":\"Question\",\"name\":\"Do you offer setup help?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Every plan includes guided onboarding documentation. Growth and Scale plans also include free router-config calls so we can walk you through your first hotspot setup live.\"}},{\"@type\":\"Question\",\"name\":\"Can I cancel anytime?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes — cancel from the Billing page in one click. No long-term contracts, no early-termination fees.\"}}]}]}"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"c\":[\"\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0zg8zj66ujb_9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/0y8_vpcjh-bqf.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"children\":[\"$undefined\",\"\",[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"$2\"}}],\"$L3\",\"$L4\",\"$L5\"]}]}]]}],{\"children\":[\"$L6\",{},null,false,null]},null,false,null],\"$L7\",false]],\"m\":\"$undefined\",\"G\":[\"$8\",[\"$L9\"]],\"S\":true,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"vl5Nd-C9toKElzLQpiqrW\"}\n"])</script><script>self.__next_f.push([1,"a:I[39756,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"default\"]\nb:I[37457,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"default\"]\nd:I[19761,[\"/_next/static/chunks/0y8_vpcjh-bqf.js\"],\"default\"]\ne:I[47257,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"ClientPageRoot\"]\nf:I[31713,[\"/_next/static/chunks/0y8_vpcjh-bqf.js\",\"/_next/static/chunks/16vgdf1dv9v1s.js\",\"/_next/static/chunks/0dmuiku165hrq.js\"],\"default\"]\n12:I[97367,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"OutletBoundary\"]\n13:\"$Sreact.suspense\"\n15:I[97367,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"ViewportBoundary\"]\n17:I[97367,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"MetadataBoundary\"]\n"])</script><script>self.__next_f.push([1,"3:[\"$\",\"$La\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]\n"])</script><script>self.__next_f.push([1,"c:[\"$\",\"footer\",null,{\"style\":{\"padding\":\"24px 32px\",\"textAlign\":\"center\",\"fontSize\":14,\"lineHeight\":1.6,\"color\":\"#94a3b8\",\"background\":\"#06060C\",\"borderTop\":\"1px solid rgba(255,255,255,0.08)\"},\"children\":[\"$\",\"nav\",null,{\"aria-label\":\"Legal\",\"children\":[[\"$\",\"a\",null,{\"href\":\"/about\",\"style\":{\"color\":\"#94a3b8\",\"margin\":\"0 10px\"},\"children\":\"About\"}],[\"$\",\"a\",null,{\"href\":\"/contact\",\"style\":{\"color\":\"#94a3b8\",\"margin\":\"0 10px\"},\"children\":\"Contact\"}],[\"$\",\"a\",null,{\"href\":\"/privacy\",\"style\":{\"color\":\"#94a3b8\",\"margin\":\"0 10px\"},\"children\":\"Privacy Policy\"}],[\"$\",\"a\",null,{\"href\":\"/terms\",\"style\":{\"color\":\"#94a3b8\",\"margin\":\"0 10px\"},\"children\":\"Terms of Service\"}]]}]}]\n4:[\"$\",\"noscript\",null,{\"children\":\"$c\"}]\n5:[\"$\",\"$Ld\",null,{}]\n6:[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$Le\",null,{\"Component\":\"$f\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@10\",\"$@11\"]}}],[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/12bzaj77oym1c.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/16vgdf1dv9v1s.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/0dmuiku165hrq.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L12\",null,{\"children\":[\"$\",\"$13\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@14\"}]}]]}]\n7:[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L15\",null,{\"children\":\"$L16\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L17\",null,{\"children\":[\"$\",\"$13\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L18\"}]}]}],null]}]\n9:[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0zg8zj66ujb_9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n"])</script><script>self.__next_f.push([1,"10:{}\n11:\"$6:props:children:0:props:serverProvidedParams:params\"\n"])</script><script>self.__next_f.push([1,"16:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"content\":\"#06060C\",\"media\":\"(prefers-color-scheme: light)\"}],[\"$\",\"meta\",\"3\",{\"name\":\"theme-color\",\"content\":\"#06060C\",\"media\":\"(prefers-color-scheme: dark)\"}],[\"$\",\"meta\",\"4\",{\"name\":\"color-scheme\",\"content\":\"dark\"}]]\n"])</script><script>self.__next_f.push([1,"19:I[27201,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"IconMark\"]\n14:null\n"])</script><script>self.__next_f.push([1,"18:[[\"$\",\"title\",\"0\",{\"children\":\"VunaFlow — Monetize Your WiFi On Autopilot | MikroTik \u0026 M-Pesa\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"application-name\",\"content\":\"VunaFlow\"}],[\"$\",\"meta\",\"3\",{\"name\":\"author\",\"content\":\"VunaFlow Software\"}],[\"$\",\"link\",\"4\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"MikroTik hotspot,M-Pesa hotspot,ISP billing software,captive portal,RouterOS automation,WiFi monetization Kenya,Daraja STK Push,hotspot voucher system,PPPoE management,VunaFlow\"}],[\"$\",\"meta\",\"6\",{\"name\":\"creator\",\"content\":\"VunaFlow Software\"}],[\"$\",\"meta\",\"7\",{\"name\":\"publisher\",\"content\":\"VunaFlow Software\"}],[\"$\",\"meta\",\"8\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"9\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\"}],[\"$\",\"meta\",\"10\",{\"name\":\"category\",\"content\":\"Networking Software\"}],[\"$\",\"link\",\"11\",{\"rel\":\"canonical\",\"href\":\"https://vunaflow.co.ke\"}],[\"$\",\"meta\",\"12\",{\"name\":\"format-detection\",\"content\":\"telephone=no, address=no, email=no\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:title\",\"content\":\"VunaFlow — Monetize Your WiFi On Autopilot\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:description\",\"content\":\"Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya.\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:url\",\"content\":\"https://vunaflow.co.ke\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:site_name\",\"content\":\"VunaFlow\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:locale\",\"content\":\"en_KE\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:image\",\"content\":\"https://vunaflow.co.ke/opengraph-image?2296bc84b642edec\"}],[\"$\",\"meta\",\"19\",{\"property\":\"og:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"20\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"21\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"22\",{\"property\":\"og:image:alt\",\"content\":\"VunaFlow — MikroTik ISP automation platform\"}],[\"$\",\"meta\",\"23\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"25\",{\"name\":\"twitter:creator\",\"content\":\"@vunaflow\"}],[\"$\",\"meta\",\"26\",{\"name\":\"twitter:title\",\"content\":\"VunaFlow — Monetize Your WiFi On Autopilot\"}],[\"$\",\"meta\",\"27\",{\"name\":\"twitter:description\",\"content\":\"Turn your MikroTik router into an automated M-Pesa hotspot in under 5 minutes. Branded captive portals, STK Push payments, voucher generation, and live revenue analytics — built for ISPs across Kenya.\"}],[\"$\",\"meta\",\"28\",{\"name\":\"twitter:image\",\"content\":\"https://vunaflow.co.ke/opengraph-image\"}],[\"$\",\"link\",\"29\",{\"rel\":\"icon\",\"href\":\"/icon\"}],[\"$\",\"link\",\"30\",{\"rel\":\"apple-touch-icon\",\"href\":\"/icon\"}],[\"$\",\"$L19\",\"31\",{}]]\n"])</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeispradius - Free ISP Billing Software | Hotspot, PPPoE & WiFi MikroTik Billing System</title>
+    <meta name="description" content="Freeispradius - Best free ISP billing software in Kenya. MikroTik hotspot billing, PPPoE billing system, WiFi billing, M-Pesa STK Push integration, customer roaming, and ISP management. Free for ISPs with sales below Ksh 3,500. Trusted by 10,000+ ISPs across Africa.">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- sending mail on the same page -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
+            a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];
+            f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
+            tp('register', 'PmADPgDuSMw56aGZ');
+</script>
+
+<script type="text/javascript"
+        src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        async></script>
+
+    <link rel="canonical" href="https://freeispradius.com" />
+    <meta property="og:title" content="Free Hotspot and ISP Billing Software in Kenya | Freeispradius">
+    <meta property="og:description" content="Freeispradius is the best free hotspot billing software in Kenya. Automated MikroTik billing for PPPoE, Static IP, and Hotspot ISP management.">
+    <meta property="og:image" content="https://freeispradius.com/logo.png">
+    <meta property="og:url" content="https://freeispradius.com">
+    <meta property="og:type" content="website">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Freeispradius",
+        "url": "https://freeispradius.com",
+        "logo": "https://freeispradius.com/logo.png",
+        "description": "Free Hotspot and ISP Billing Software in Kenya for MikroTik",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254769023642",
+            "contactType": "sales"
+        },
+        "sameAs": [
+            "https://www.trustpilot.com/review/freeispradius.com",
+            "https://web.facebook.com/p/Free-Isp-Radius-61555020699337/",
+            "https://www.youtube.com/@FreeIspRadius",
+            "https://www.tiktok.com/@freeispradius"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Free Hotspot and ISP Billing Software in Kenya",
+        "url": "https://freeispradius.com",
+        "datePublished": "2024-01-01",
+        "dateModified": "2026-03-25",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Freeispradius",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://freeispradius.com/logo.png"
+            }
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Freeispradius ISP Billing Software",
+        "operatingSystem": "Web",
+        "applicationCategory": "BusinessApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "KES",
+            "description": "Free tier available"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "150"
+        }
+    }
+    </script>
+    <style>
+        /* Styles for the updated interactive section */
+        .try-now {
+            padding: 4rem 0;
+            background: #121212; /* Matching the dark background of other sections */
+            text-align: center;
+        }
+        .try-now .heading {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .try-now .sub-heading {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-bottom: 2rem;
+        }
+        .try-now-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .try-now-box {
+            background: #1c1c1c; /* Darker card background to match the theme */
+            border-radius: 10px;
+            padding: 2rem;
+            width: 300px;
+            transition: transform 0.3s ease;
+            border: 1px solid #333;
+        }
+        .try-now-box:hover {
+            transform: scale(1.05);
+        }
+        .try-now-box i {
+            font-size: 3rem;
+            color: #00c4ff; /* Cyan accent color to match the page theme */
+            margin-bottom: 1rem;
+        }
+        .try-now-box h3 {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .try-now-box p {
+            font-size: 1rem;
+            color: #aaa;
+            margin-bottom: 1rem;
+        }
+        .try-now-box a.btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #00c4ff;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .try-now-box a.btn:hover {
+            background: #0099cc;
+        }
+        .features-list {
+            max-width: 1200px;
+            margin: 3rem auto;
+        }
+        .features-list h3 {
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .feature-box {
+            background: #1c1c1c;
+            border-radius: 10px;
+            padding: 2rem;
+            width: 300px;
+            transition: transform 0.3s ease;
+            border: 1px solid #333;
+        }
+        .feature-box:hover {
+            transform: scale(1.05);
+        }
+        .feature-box p {
+            font-size: 1rem;
+            color: #aaa;
+            margin-bottom: 0;
+        }
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .try-now {
+                padding: 2rem 1rem;
+            }
+            .try-now .heading {
+                font-size: 2rem;
+            }
+            .try-now .sub-heading {
+                font-size: 1rem;
+            }
+            .try-now-box,
+            .feature-box {
+                width: 100%;
+                max-width: 350px;
+                margin: 0 auto;
+            }
+            .try-now-container,
+            .features-container {
+                gap: 1rem;
+            }
+        }
+
+        /* === Trustpilot button === */
+.trustpilot-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;                 /* space between icon & text  */
+  padding:.65rem 1.25rem;    /* button size               */
+  background:#00B67A;        /* Trustpilot green          */
+  color:#fff;
+  font-weight:600;
+  border-radius:6px;
+  text-decoration:none;
+  transition:background .25s, transform .25s;
+  box-shadow:0 2px 4px rgba(0,0,0,.15);
+}
+
+.trustpilot-btn i{           /* star icon */
+  font-size:1.25rem;
+  line-height:1;
+}
+
+/* Force above-the-fold elements visible — overrides ScrollReveal's initial visibility:hidden
+   so mobile users see the header + hero + CTA on first paint without scrolling. */
+.header,.header *,.logo,.navbar,.navbar a,#menu-icon,
+.home,.home-content,.home-content *,.home-img,.home-img *,
+.social-media,.social-media a,.btn,.multiple-text{
+    visibility:visible!important;
+    opacity:1!important;
+    transform:none!important;
+    transition:none!important;
+}
+
+/* Kill horizontal overflow on mobile — was hiding the menu/CTA off the right edge */
+html,body{overflow-x:hidden!important;max-width:100vw!important;width:100%!important}
+body>*,section,.container,.home,.home-content,.home-img,header,footer{max-width:100vw!important}
+img,iframe,video,table{max-width:100%!important;height:auto}
+@media(max-width:768px){
+    .home-img img{max-width:90vw!important;height:auto}
+    .navbar{max-width:100vw!important;overflow-x:auto}
+    section{padding-left:1rem!important;padding-right:1rem!important}
+}
+
+.trustpilot-btn:hover{
+  background:#009961;        /* darker on hover           */
+  transform:translateY(-2px);
+}
+
+    </style>
+<script src="/_aistudio-iframe.js?v=2f1c016a"></script></head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="logo.png" alt="Freeispradius" style="height:40px; vertical-align:middle; margin-right:8px;">Freeispradius</a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="https://freeispradius.com/login.html">Hotspot</a>
+            <a href="https://register.ispledger.com">Free Accounts</a>
+             <a href="https://networkdesign.ispledger.com">Network Design</a>
+            <a href="#demo" id="demo-link">Demo</a>
+            <a href="#get-started">Get Started</a>
+            <a href="https://whatsapp.ispledger.com">Whatsapp Gateway</a>
+            <a href="https://vpn.ispledger.com">Free Remote Access</a>
+            <a href="https://sms.ispledger.com">Sms Gateway</a>
+            <a href="https://blog.ispledger.com">Blog</a>
+            <!-- Phone Call Button -->
+            <a href="tel:0769023642" class="call-button"><i class='bx bx-phone'></i> Call Us</a>
+        </nav>
+    </header>
+
+    <!-- JavaScript for SweetAlert2 Modal -->
+    <script>
+        // Get the "Demo" link
+        var demoLink = document.getElementById("demo-link");
+
+        // When the user clicks the "Demo" link, show the SweetAlert2 modal
+        demoLink.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior
+
+            // Trigger the SweetAlert2 pop-up
+            Swal.fire({
+                title: 'Login Instructions',
+                html: `
+                    <p style="font-size: 1.2em; color: #333;">To access the demo, use the following credentials:</p>
+                    <ul style="text-align: left; font-size: 1.1em; line-height: 1.5;">
+                        <li><strong>Link:</strong> <a href="https://demo.ispledger.com/admin" target="_blank" style="color: #007BFF;">demo.ispledger.com/admin</a></li>
+                        <li><strong>Username:</strong> <span style="color: #28a745;">admin</span></li>
+                        <li><strong>Password:</strong> <span style="color: #dc3545;">demo@12345</span></li>
+                    </ul>
+                `,
+                icon: 'info',
+                confirmButtonText: 'Got it!',
+                confirmButtonColor: '#007BFF',
+                background: '#f9f9f9',
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                },
+                customClass: {
+                    title: 'swal-title-custom',
+                    confirmButton: 'swal-confirm-button-custom'
+                }
+            });
+        });
+    </script>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, This Is</h3>
+            <h1>Freeispradius Isp Billing Software</h1>
+
+            <h3>And we Offer <span class="multiple-text"></span></h3>
+            <h2>Best Free Hotspot and isp Billing Software in Kenya for Mikrotik</h2>
+            <p id="country-text">Freeispradius is #1 ISP Artificial intelligent (AI) billing software for small to medium size ISPs
+                 in Kenya designed to streamline operations for ISPs
+                 and It's tailored to provide ISP billing services at almost no cost.</p>
+            <div class="social-media">
+                <a href="https://web.facebook.com/p/Free-Isp-Radius-61555020699337/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.youtube.com/@FreeIspRadius" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.tiktok.com/@freeispradius" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://register.ispledger.com" class="btn">Register A Free Hotspot Account Here</a>
+        </div>
+
+        <div class="home-img">
+            <img src="image1.png" alt="Freeispradius ISP Billing Dashboard">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Freeispradius</span></h2>
+            <h3>AI Isp Billing Software</h3>
+            <p>Freeispradius is a comprehensive AI based billing software designed specifically for MikroTik networks, catering to 
+                various network services such as PPPoE, static IPs, and hotspots. This software streamlines the management
+                 and billing process, providing an efficient solution for network administrators and service providers. With its user-friendly 
+                 interface and robust feature set, Freeispradius simplifies the 
+                complex tasks of network management, ensuring accurate billing and enhanced service delivery for ISPs.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- updated interactive section -->
+    <section id="try-now" style="padding:3rem 2rem; background:#121212; text-align:center;">
+        <h2 class="heading">Before You Go, Try Our <span>Free Features</span></h2>
+        <p class="sub-heading">Discover why Freeispradius is the most advanced billing system in Kenya with unmatched features and 99% uptime.</p>
+        <div class="try-now-container">
+            <div class="try-now-box">
+                <i class='bx bx-wifi'></i>
+                <h3>Free TR-069</h3>
+                <p>Manage your network devices effortlessly with our free TR-069 service for seamless configuration and monitoring.</p>
+                <a href="https://tr069.net/" class="btn">Try Now</a>
+            </div>
+            <div class="try-now-box">
+                <i class='bx bxl-whatsapp'></i>
+                <h3>Free WhatsApp Server</h3>
+                <p>Engage with your customers instantly using our free WhatsApp server for automated notifications and support.</p>
+                <a href="https://whatsapp.ispledger.com" class="btn">Try Now</a>
+            </div>
+            <div class="try-now-box">
+                <i class='bx bx-desktop'></i>
+                <h3>Remote Radio Access</h3>
+                <p>Access your Ubiquiti, Tenda, and Huawei radios remotely with our free demo tool.</p>
+                <a href="https://demo.ispledger.cc" class="btn">Try Now</a>
+            </div>
+            <div class="try-now-box">
+                <i class='bx bx-router'></i>
+                <h3>Free MikroTik Access</h3>
+                <p>Manage your MikroTik routers remotely at no cost, ensuring full control and flexibility.</p>
+                <a href="https://freemikrotikaccess.com/" class="btn">Try Now</a>
+            </div>
+            <div class="try-now-box">
+                <i class='bx bx-server'></i>
+                <h3>Free Billing System Account</h3>
+                <p>Sign up for a free Freeispradius billing system account and experience seamless ISP management.</p>
+                <a href="https://register.ispledger.com" class="btn">Try Now</a>
+            </div>
+
+            <div class="try-now-box">
+                <i class='bx bx-server'></i>
+                <h3>Explore Our Referral Program</h3>
+                <p>We have the most rewarding referral program at 700 per customers. Click the link below to check us now.Real Isps with contact for reference</p>
+                <a href="https://referrals.ispledger.com" class="btn">Check Our Referrals</a>
+            </div>
+        </div>
+        <div class="features-list">
+            <h3>Why Choose <span style="color:#00c4ff;">Freeispradius?</span></h3>
+            <p class="sub-heading">Everything other billing systems have, plus features they don't.</p>
+            <div class="features-container">
+                <div class="feature-box">
+                    <h4 style="color:#00c4ff; margin-bottom:0.5rem;"><i class='bx bx-globe' style="margin-right:5px;"></i> Roaming Support</h4>
+                    <p>Customers connect to any router as long as their package is active. Seamless roaming across your entire network.</p>
+                </div>
+                <div class="feature-box">
+                    <h4 style="color:#00c4ff; margin-bottom:0.5rem;"><i class='bx bx-trophy' style="margin-right:5px;"></i> Most Advanced Billing</h4>
+                    <p>Highest number of clients in Kenya with 99% uptime. Trusted by 10,000+ ISPs nationwide.</p>
+                </div>
+                <div class="feature-box">
+                    <h4 style="color:#00c4ff; margin-bottom:0.5rem;"><i class='bx bx-shield' style="margin-right:5px;"></i> Fair Usage Policy</h4>
+                    <p>Set data caps on unlimited plans. Auto-throttle heavy users to protect your bandwidth.</p>
+                </div>
+                <div class="feature-box">
+                    <h4 style="color:#00c4ff; margin-bottom:0.5rem;"><i class='bx bx-palette' style="margin-right:5px;"></i> Page Customization</h4>
+                    <p>Add logos, adverts, M-Pesa buttons, and custom branding to your hotspot login pages.</p>
+                </div>
+                <div class="feature-box">
+                    <h4 style="color:#00c4ff; margin-bottom:0.5rem;"><i class='bx bx-error-circle' style="margin-right:5px;"></i> Disconnection Insights</h4>
+                    <p>Know exactly why customers disconnected with one-click solutions to reconnect them.</p>
+                </div>
+                <div class="feature-box">
+                    <h4 style="color:#00c4ff; margin-bottom:0.5rem;"><i class='bx bx-group' style="margin-right:5px;"></i> Referral Program</h4>
+                    <p>Earn Ksh 700 per referral. See real ISPs with contacts who trust us daily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>PPPoE</h3>
+                <p>Streamline your ISP business with our advanced PPPoE billing solutions,
+                     designed for efficiency and ease of use.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Hotspots</h3>
+                <p>Elevate your hotspot services with our dynamic billing system,
+                     tailored for flexibility and seamless user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Static IPs</h3>
+                <p>Effortlessly manage and bill for static IP allocations with our robust software, ensuring 
+                    accuracy and customer satisfaction</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div id="video-background">
+            <iframe src="https://www.youtube.com/embed/6PQKKQoVN0o?autoplay=1&mute=1&loop=1&playlist=6PQKKQoVN0o&controls=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- Add your content for the video section here -->
+    </section>
+
+    <section class="wispgate" id="wispgate">
+        <div class="wispgate-content">
+            <h2 class="heading">Freeispradius supports a wide range of NAS and Routers such as:</h2>
+            <div class="supported-brands">
+                <img src="images/tenda.png" alt="tenda">
+                <img src="images/tplink.png" alt="tplink">
+                <img src="images/ubiquiti.png" alt="Ubiquiti">
+                <img src="images/mikrotik.png" alt="mikrotik">
+                <img src="images/cambium.png" alt="cambium">
+                <img src="images/huawei.png" alt="huawei">
+            </div>
+        </div>
+    
+        <div class="modules-details">
+            <h2 class="heading">What You Get With <span>Freeispradius</span></h2>
+            <div class="modules-container">
+                <div class="module">
+                    <h3>Billing & Activation</h3>
+                    <ul>
+                        <li>Hotspot Plans</li>
+                        <li>PPPoE Plans</li>
+                        <li>Static IP Plans</li>
+                        <li>Bandwidth Plans</li>
+                        <li>Prepaid Users Management</li>
+                        <li>Active / Expired / Online / Offline Users</li>
+                        <li>Customer Roaming</li>
+                        <li>Voucher Generation & Printing</li>
+                        <li>Hotspot Binding</li>
+                        <li>Fair Usage Policy (FUP)</li>
+                        <li>Bulk Transfer Between Routers</li>
+                        <li>Hotspot Trials</li>
+                    </ul>
+                </div>
+                <div class="module">
+                    <h3>Network Management</h3>
+                    <ul>
+                        <li>Router Monitoring (Online/Offline)</li>
+                        <li>IP Pool Management</li>
+                        <li>Router Backups</li>
+                        <li>Wireless Settings</li>
+                        <li>Bridge Configuration</li>
+                        <li>IP Address Management</li>
+                        <li>Self Install for Customers</li>
+                        <li>Router Replacement Tool</li>
+                        <li>Free VPN Remote Access</li>
+                        <li>TR-069 ACS (Free)</li>
+                        <li>MikroTik Logs</li>
+                        <li>Interface Monitor</li>
+                    </ul>
+                </div>
+                <div class="module">
+                    <h3>Payments & Reports</h3>
+                    <ul>
+                        <li>M-Pesa STK Push</li>
+                        <li>M-Pesa Paybill & Till</li>
+                        <li>Daily Transaction Reports</li>
+                        <li>Period Transaction Reports</li>
+                        <li>Activation History</li>
+                        <li>Transaction Graphs & Comparisons</li>
+                        <li>Monthly Sales Charts</li>
+                        <li>Best Selling Packages</li>
+                        <li>Daily / Weekly / Monthly Data Usage</li>
+                        <li>Top Downloaders</li>
+                        <li>Income Today & This Month</li>
+                        <li>Revenue Per Router</li>
+                    </ul>
+                </div>
+                <div class="module">
+                    <h3>Communication & Support</h3>
+                    <ul>
+                        <li>WhatsApp Notifications (Free)</li>
+                        <li>SMS Notifications</li>
+                        <li>Bulk SMS / WhatsApp</li>
+                        <li>Plan-Specific Messaging</li>
+                        <li>Router-Specific Messaging</li>
+                        <li>Scheduled SMS</li>
+                        <li>SMS Groups</li>
+                        <li>Email Notifications</li>
+                        <li>Telegram Alerts</li>
+                        <li>Support Ticket System</li>
+                        <li>Custom Hotspot Page Builder</li>
+                        <li>Bonga Points / Loyalty</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="activate-windows">
+            <a href="https://register.ispledger.com" class="btn">Register A Free Hotspot Account Here</a>
+        </div>
+    </section>
+
+    <style>
+        .pricing-free-hero {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            background: linear-gradient(135deg, #0a1929 0%, #001f3f 100%);
+            border: 2px solid #00c4ff;
+            border-radius: 16px;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 0 40px rgba(0,196,255,0.25);
+            position: relative;
+            overflow: hidden;
+        }
+        .pricing-free-hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0,196,255,0.08) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .pricing-free-hero .free-badge {
+            display: inline-block;
+            background: #00c4ff;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.2rem;
+            text-transform: uppercase;
+        }
+        .pricing-free-hero h3 {
+            color: #fff;
+            font-size: 2.4rem;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .pricing-free-hero h3 span {
+            color: #00c4ff;
+            display: block;
+            font-size: 3.2rem;
+            margin-top: .3rem;
+        }
+        .pricing-free-hero .free-tagline {
+            color: #ccc;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            max-width: 650px;
+            margin: 0 auto 1.8rem;
+        }
+        .pricing-free-hero .free-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem 2rem;
+            margin: 1.5rem auto 2rem;
+            max-width: 700px;
+            list-style: none;
+            padding: 0;
+        }
+        .pricing-free-hero .free-features li {
+            color: #fff;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .pricing-free-hero .free-features li i {
+            color: #00c4ff;
+            font-size: 1.4rem;
+        }
+        .pricing-free-hero .btn {
+            background: #00c4ff;
+            color: #000;
+            font-size: 1.1rem;
+            padding: 1rem 2.5rem;
+            font-weight: 700;
+        }
+        @media (max-width: 768px) {
+            .pricing-free-hero { padding: 2rem 1.2rem; margin: 1.5rem 0.5rem 0; }
+            .pricing-free-hero h3 { font-size: 1.6rem !important; }
+            .pricing-free-hero h3 span { font-size: 2.2rem !important; }
+            .pricing-free-hero .free-tagline { font-size: 1rem !important; }
+            .pricing-free-hero .free-features { gap: .8rem 1.5rem; }
+        }
+    </style>
+
+    <section class="pricing" id="pricing">
+        <h2 class="heading" id="pricing-heading">Plans & <span>Pricing</span></h2>
+        <h4 class="heading" id="pricing-subheading">Sky's the limit with our unbeatable plans! <span>You won't find this deal anywhere else!</span></h4>
+
+        <div class="pricing-container" id="kenya-pricing">
+            <div class="pricing-box" style="border:2px solid #00c4ff;">
+                <h3 class="pricing-title">Free</h3>
+                <div class="price" id="price-free">Ksh 0 / Month</div>
+                <p>Sales Below Ksh 3,500 - Unlimited Users</p>
+                <ul class="pricing-features">
+                    <li>Unlimited PPPoE, Static & Hotspot Connections</li>
+                    <li>Cloud-based platform</li>
+                    <li>Free installation & setup</li>
+                    <li>Free WhatsApp notifications</li>
+                    <li>Free remote router access</li>
+                    <li>Free Support</li>
+                </ul>
+                <a href="https://register.ispledger.org" class="btn" style="background:#00c4ff;">Start Free Now!</a>
+            </div>
+
+            <div class="pricing-box">
+                <h3 class="pricing-title">Basic</h3>
+                <div class="price" id="price-basic">Ksh 500 / Month</div>
+                <p>Sales Below Ksh 8,000 - Unlimited Users</p>
+                <ul class="pricing-features">
+                    <li id="price-basic-first-month">1st Month Ksh 700 - Unlimited Users</li>
+                    <li>Unlimited PPPoE, Static & Hotspot Connections</li>
+                    <li>10% discount on annual payments</li>
+                    <li>Cloud-based platform</li>
+                    <li>Free installation</li>
+                    <li> Free Support</li>
+                </ul>
+                <a href="https://wa.me/254769023642" class="btn">Grab This Now!</a>
+            </div>
+
+            <div class="pricing-box">
+                <h3 class="pricing-title">Premium</h3>
+                <div class="price" id="price-premium">Ksh 1,500 / Month</div>
+                <p>Sales Above Ksh 8,000 - Sky's the Limit with Unlimited Users!</p>
+                <ul class="pricing-features">
+                    <li id="price-premium-first-month">1st Month Ksh 700 - Unlimited Users</li>
+                    <li>Unlimited PPPoE, Static & Hotspot Connections</li>
+                    <li>10% discount on annual payments</li>
+                    <li>Cloud-based platform</li>
+                    <li>Free installation</li>
+                    <li> Free Support</li>
+                </ul>
+                <a href="https://wa.me/254769023642" class="btn">Go Big Now!</a>
+            </div>
+        </div>
+
+        <div class="pricing-free-hero" id="non-kenya-pricing" style="display:none;">
+            <span class="free-badge">No catch</span>
+            <h3>Do you know how we charge?<span>It's Completely Free.</span></h3>
+            <p class="free-tagline">
+                That's right. Freeispradius is 100% free for ISPs in <span class="dyn-country">your country</span>. No setup fees, no hidden costs, no per-user charges. Run your MikroTik billing, manage PPPoE and Hotspot users, accept payments, and grow your business — all without paying us a cent.
+            </p>
+            <ul class="free-features">
+                <li><i class='bx bx-check-shield'></i> Unlimited Users</li>
+                <li><i class='bx bx-check-shield'></i> Free Installation</li>
+                <li><i class='bx bx-check-shield'></i> Free WhatsApp Notifications</li>
+                <li><i class='bx bx-check-shield'></i> Free Remote Router Access</li>
+                <li><i class='bx bx-check-shield'></i> Free Support</li>
+            </ul>
+            <div style="display:flex; flex-wrap:wrap; gap:.8rem; justify-content:center;">
+                <a href="https://register.ispledger.org" class="btn">Start Free Now</a>
+                <a href="https://wa.me/254769023642" class="btn" style="background:#25D366; color:#fff;">
+                    <i class='bx bxl-whatsapp' style="font-size:1.3rem; vertical-align:middle; margin-right:.3rem;"></i>Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Screenshots Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">See Freeispradius <span>In Action</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image1.png" alt="Freeispradius ISP Billing Dashboard showing income, active users, and router status">
+                <div class="portfolio-layer">
+                    <h4>Real-Time Dashboard</h4>
+                    <p>Monitor income, active users, expired users, online customers, router status, best-selling packages, and data usage all from one dashboard. Optimized to load in under 2 seconds.</p>
+                    <a href="https://register.ispledger.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image2.png" alt="Freeispradius prepaid users management showing customer status and billing">
+                <div class="portfolio-layer">
+                    <h4>Prepaid Users Management</h4>
+                    <p>View all your customers in one place. Track active, expired, online, and offline users. Edit plans, extend subscriptions, sync to routers, and manage disconnections with one click.</p>
+                    <a href="https://register.ispledger.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image3.png" alt="Freeispradius custom hotspot login page builder for branded WiFi portals">
+                <div class="portfolio-layer">
+                    <h4>Hotspot Page Builder</h4>
+                    <p>Design your own branded hotspot login pages. Add your logo, adverts, M-Pesa payment buttons, and custom styling. Drag and drop builder with multiple templates for different locations.</p>
+                    <a href="https://register.ispledger.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image4.png" alt="Freeispradius network router monitoring showing online offline status">
+                <div class="portfolio-layer">
+                    <h4>Router Monitoring</h4>
+                    <p>Track all your MikroTik routers in real-time. See which routers are online or offline, uptime, model, IP address, and active customer count per router. Get alerts when routers go down.</p>
+                    <a href="https://register.ispledger.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box" style="background:linear-gradient(135deg, #0a1628 0%, #1a1a2e 100%); border:2px solid #00c4ff; display:flex; align-items:center; justify-content:center; min-height:250px;">
+                <div style="text-align:center; padding:2rem;">
+                    <i class='bx bx-play-circle' style="font-size:4rem; color:#00c4ff; margin-bottom:1rem;"></i>
+                    <h4 style="color:#fff; font-size:1.4rem; margin-bottom:0.5rem;">Want to Try It Yourself?</h4>
+                    <p style="color:#aaa; margin-bottom:1.5rem;">Explore the full Freeispradius billing system with our live demo. No signup needed.</p>
+                    <a href="https://demo.ispledger.com" target="_blank" class="btn" style="font-size:1.1rem; padding:0.7rem 2rem;">Check Our Demo Here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="services" id="how-it-works" style="background:#0d0d0d;">
+        <h2 class="heading">How Freeispradius <span>Works</span></h2>
+        <p style="text-align:center; color:#aaa; max-width:800px; margin:0 auto 2rem; font-size:1.1rem;">Get your ISP billing system running in under 10 minutes. No technical skills needed.</p>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-user-plus'></i>
+                <h3>1. Register Free</h3>
+                <p>Create your free Freeispradius account. No credit card required. Get your own subdomain and dashboard instantly with unlimited users from day one.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-link'></i>
+                <h3>2. Connect Your Router</h3>
+                <p>Add your MikroTik router to the panel using our free VPN remote access. We support PPPoE, Hotspot, and Static IP connections across multiple routers.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-money'></i>
+                <h3>3. Start Collecting Revenue</h3>
+                <p>Activate M-Pesa STK Push, voucher codes, or manual billing. Customers pay and get connected automatically. You track everything from the dashboard.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Features Section -->
+    <section id="detailed-features" style="padding:3rem 2rem; background:#121212; text-align:center;">
+        <h2 class="heading">Advanced Features That Set Us <span>Apart</span></h2>
+        <p class="sub-heading">Built by ISPs, for ISPs. Every feature solves a real problem that network operators face daily.</p>
+        <div class="features-container" style="max-width:1200px; margin:0 auto;">
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Customer Roaming</h4>
+                <p>Your customers can connect to any MikroTik router in your network as long as their package is active. When they move between routers, the system automatically tracks the roaming session without creating duplicate records.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Bulk Router Transfer</h4>
+                <p>Moving customers from one router to another? Our bulk transfer tool lets you map plans between routers and migrate hundreds of customers in one click, including those without active plans.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Real-Time Dashboard</h4>
+                <p>Monitor active users, online customers, daily income, monthly revenue, top downloaders, weekly and monthly data usage, best-selling packages, and router status all from one optimized dashboard that loads in under 2 seconds.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Free WhatsApp Notifications</h4>
+                <p>Send payment confirmations, expiry reminders, and connection notifications directly from your own WhatsApp number using our free WhatsApp gateway. Messages come from your device so your number is unlikely to be banned.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">M-Pesa STK Push Integration</h4>
+                <p>Customers pay via M-Pesa STK Push and get connected to your hotspot or PPPoE automatically. Supports Paybill, Till Number, and direct STK push for seamless payment collection across Kenya.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Smart Disconnection Tracking</h4>
+                <p>Know exactly why a customer went offline. Our system tracks disconnection reasons like keepalive timeout, traffic limit reached, and session timeout, then gives you one-click solutions to reconnect them.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Fair Usage Policy (FUP)</h4>
+                <p>Set data caps on unlimited plans. When customers hit the limit, they automatically get throttled to a lower speed instead of getting cut off. Protects your bandwidth while keeping customers happy.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Custom Hotspot Login Pages</h4>
+                <p>Design your own branded hotspot login pages with our drag-and-drop page builder. Add your logo, advertisements, social media links, and custom CSS. Multiple templates available for different locations.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Free TR-069 Remote Management</h4>
+                <p>Manage Ubiquiti, Tenda, Huawei, and TP-Link devices remotely using our free TR-069 ACS server. Configure, update firmware, and troubleshoot CPE devices without visiting the customer's location.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Multi-Router Sync</h4>
+                <p>Sync customer profiles across all your MikroTik routers from Activation > Prepaid Users. Sync all routers at once or pick a specific one. Database changes are pushed to MikroTik automatically.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Support Ticket System</h4>
+                <p>Built-in support ticket system with technician assignment, SLA tracking, priority levels, and customer notifications via SMS and WhatsApp. Resolve issues faster and keep your customers informed.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Voucher Management</h4>
+                <p>Generate, print, and manage voucher codes in bulk. Customers purchase vouchers and activate themselves on the hotspot page. Track used vs unused vouchers per plan from the dashboard.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Best Billing Software Section -->
+    <section class="about" id="why-best" style="padding:4rem 2rem;">
+        <div class="about-content" style="max-width:1200px; margin:0 auto;">
+            <h2 class="heading">The Best <span>ISP Billing Software</span> in Kenya</h2>
+            <p style="color:#aaa; line-height:1.9; font-size:1.05rem; margin-bottom:1.5rem;">
+                Looking for the <strong>best billing software in Kenya</strong>? Freeispradius is the most trusted <strong>ISP billing system</strong> used by over 10,000 internet service providers across Kenya. Whether you run a small neighborhood hotspot or a large PPPoE network with thousands of subscribers, our <strong>hotspot billing software</strong> handles everything from customer activation to automatic disconnection.
+            </p>
+            <p style="color:#aaa; line-height:1.9; font-size:1.05rem; margin-bottom:1.5rem;">
+                Unlike other <strong>billing systems in Kenya</strong> that charge per user or limit your connections, Freeispradius gives you <strong>unlimited users from day one</strong>. Our <strong>ISP management system</strong> integrates directly with MikroTik RouterOS, supporting Hotspot, PPPoE, and Static IP services. Customers pay via M-Pesa and get connected automatically, no manual intervention needed.
+            </p>
+            <p style="color:#aaa; line-height:1.9; font-size:1.05rem; margin-bottom:1.5rem;">
+                What makes us the <strong>best hotspot software in Kenya</strong>? We offer features that no other billing platform provides: customer roaming between routers, AI-powered disconnection tracking, real-time online/offline monitoring, bulk customer transfer tools, Fair Usage Policy (FUP) throttling, custom hotspot login page builder, free WhatsApp and SMS notifications, and a dashboard optimized to load in under 2 seconds even with millions of customer records.
+            </p>
+            <p style="color:#aaa; line-height:1.9; font-size:1.05rem; margin-bottom:1.5rem;">
+                Our <strong>WiFi billing software</strong> also comes with free tools that other providers charge extra for: TR-069 ACS for remote CPE management, VPN-based remote router access, WhatsApp notification gateway, and SMS gateway integration. Every Freeispradius account gets its own subdomain, dedicated database, and 99.9% uptime on our cloud infrastructure.
+            </p>
+        </div>
+    </section>
+
+    <!-- Comparison / Keywords Section -->
+    <section id="comparison" style="padding:3rem 2rem; background:#121212; text-align:center;">
+        <h2 class="heading">Everything You Need in One <span>Billing Platform</span></h2>
+        <p class="sub-heading">Stop paying for multiple tools. Freeispradius replaces your billing system, notification service, remote access tool, and customer management platform.</p>
+        <div class="features-container" style="max-width:1200px; margin:2rem auto 0;">
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Hotspot Billing Software</h4>
+                <p>Complete MikroTik hotspot billing with automatic customer creation, voucher generation, and M-Pesa payment integration. The most reliable hotspot management system in Kenya.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">PPPoE Billing System</h4>
+                <p>Manage PPPoE subscribers with automated billing cycles, expiry notifications, force reconnection, and bandwidth management. Built specifically for Kenyan ISPs running fiber and wireless networks.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">ISP Management Platform</h4>
+                <p>Complete ISP operations management including customer database, payment tracking, router monitoring, data usage analytics, support tickets, and technician assignment from one dashboard.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">M-Pesa Billing Integration</h4>
+                <p>Accept payments via M-Pesa STK Push, Paybill, and Till Number. Customers pay and connect automatically. Full transaction history with daily and monthly income reports.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">MikroTik Billing Software</h4>
+                <p>Deep integration with MikroTik RouterOS. Manage hotspot users, PPPoE secrets, bandwidth profiles, and IP bindings directly from the billing panel without touching Winbox.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">WiFi Billing System Kenya</h4>
+                <p>Deploy public WiFi hotspots with branded login pages, time-based and data-based packages, voucher codes, and automatic disconnection. Perfect for apartments, restaurants, and public spaces.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Internet Billing Software</h4>
+                <p>Automate your entire internet billing workflow. From customer registration to payment collection, plan activation, usage tracking, and expiry management. Everything runs on autopilot.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Network Monitoring Tool</h4>
+                <p>Real-time router status monitoring, customer online/offline tracking, daily data usage reports, weekly and monthly bandwidth analytics, and automated alerts when routers go down.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color:#00c4ff; margin-bottom:0.5rem;">Customer Management CRM</h4>
+                <p>Complete customer lifecycle management: registration, plan assignment, payment history, support tickets, disconnection tracking, and automated WhatsApp and SMS communication.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kenya Coverage Section -->
+    <section class="services" id="coverage" style="background:#0d0d0d; padding:3rem 2rem; text-align:center;">
+        <h2 class="heading">Trusted by ISPs Across <span>Kenya</span></h2>
+        <p style="color:#aaa; max-width:800px; margin:0 auto 2rem; font-size:1.05rem; line-height:1.8;">
+            Freeispradius is the leading ISP billing software in Kenya. From Nairobi to Mombasa, Kisumu to Nakuru, our platform powers internet service providers in every county. Built for Kenyan ISPs with M-Pesa integration at its core.
+        </p>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-buildings'></i>
+                <h3>Urban ISPs</h3>
+                <p>Powering fiber and wireless ISPs in Nairobi, Mombasa, Kisumu, Nakuru, Eldoret, and Thika. Perfect for apartment buildings, estates, and commercial hotspots across major Kenyan towns.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-broadcast'></i>
+                <h3>Rural WISPs</h3>
+                <p>Designed for wireless ISPs serving rural Kenya. Low-cost billing that works with limited bandwidth. Ideal for village hotspots, trading centers, and community WiFi networks across all 47 counties.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-store'></i>
+                <h3>Business Hotspots</h3>
+                <p>Hotels, restaurants, coffee shops, and matatu SACCOs across Kenya use Freeispradius to offer paid WiFi to customers. Branded login pages with M-Pesa payment for instant access.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats / Social Proof Section -->
+    <section id="stats" style="padding:3rem 2rem; background:#121212; text-align:center;">
+        <h2 class="heading">Freeispradius <span>By The Numbers</span></h2>
+        <p class="sub-heading">The most trusted ISP billing platform in Kenya. Here's why ISPs choose us.</p>
+        <div class="try-now-container" style="max-width:1000px;">
+            <div class="try-now-box" style="text-align:center; border-color:#00c4ff;">
+                <i class='bx bx-buildings' style="color:#00c4ff; font-size:2.5rem;"></i>
+                <h3 style="font-size:2.5rem; color:#00c4ff; margin:0.5rem 0 0.2rem;">10,000+</h3>
+                <p style="font-size:1.1rem;">ISPs Trust Freeispradius</p>
+            </div>
+            <div class="try-now-box" style="text-align:center; border-color:#25D366;">
+                <i class='bx bx-group' style="color:#25D366; font-size:2.5rem;"></i>
+                <h3 style="font-size:2.5rem; color:#25D366; margin:0.5rem 0 0.2rem;">1M+</h3>
+                <p style="font-size:1.1rem;">End Users Managed</p>
+            </div>
+            <div class="try-now-box" style="text-align:center; border-color:#f39c12;">
+                <i class='bx bx-check-shield' style="color:#f39c12; font-size:2.5rem;"></i>
+                <h3 style="font-size:2.5rem; color:#f39c12; margin:0.5rem 0 0.2rem;">99.9%</h3>
+                <p style="font-size:1.1rem;">Uptime Guaranteed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Features Not Yet Mentioned -->
+    <section class="services" id="more-features" style="background:#0d0d0d; padding:3rem 2rem;">
+        <h2 class="heading">Even More Reasons to Choose <span>Freeispradius</span></h2>
+        <p style="text-align:center; color:#aaa; max-width:800px; margin:0 auto 2rem; font-size:1.05rem;">Features that make managing your ISP easier every single day.</p>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-user-check'></i>
+                <h3>Multi-Admin Roles</h3>
+                <p>Create SuperAdmin, Admin, Technician, Sales Agent, and Report-only accounts. Each role sees only what they need. Technicians see assigned tickets, agents only activate users.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Customer Self-Service</h3>
+                <p>Customers log into their own portal to check balance, view active packages, purchase new plans via M-Pesa, see usage history, and raise support tickets without calling you.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-wrench'></i>
+                <h3>Hotspot Troubleshooter</h3>
+                <p>Diagnose customer connection problems directly from the panel. Check if the router is online, if the user profile exists, and get one-click fixes for common issues.</p>
+            </div>
+        </div>
+        <div class="services-container" style="margin-top:2rem;">
+            <div class="services-box">
+                <i class='bx bx-refresh'></i>
+                <h3>Auto Reconnection SMS</h3>
+                <p>When a customer disconnects unexpectedly, the system automatically sends an SMS or WhatsApp with reconnection instructions. Reduce support calls by 80%.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-map'></i>
+                <h3>Customer Location Map</h3>
+                <p>See where your customers are on a map. Track installations, plan coverage areas, and identify where to expand your network next across Kenya.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-globe-alt'></i>
+                <h3>Multi-Language Support</h3>
+                <p>Full language translation system built in. Run your billing panel in English, Swahili, or any language. Customize every label and message for your customers.</p>
+            </div>
+        </div>
+        <div class="services-container" style="margin-top:2rem;">
+            <div class="services-box">
+                <i class='bx bx-download'></i>
+                <h3>CSV Export</h3>
+                <p>Export your customer list, transactions, and prepaid users to CSV with one click. Use the data for accounting, reporting, or importing into other systems.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-lock-alt'></i>
+                <h3>Security Built In</h3>
+                <p>Forced password changes, OTP phone verification, active session management, CSRF protection, and admin login tracking. Know who accessed what and when.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cog'></i>
+                <h3>Automatic Everything</h3>
+                <p>Auto-connect on payment. Auto-disconnect on expiry. Auto-send expiry reminders. Auto-reconnection SMS. Auto-sync to MikroTik. Set it up once, it runs itself.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" style="padding:3rem 2rem; background:#121212; text-align:center;">
+        <h2 class="heading">Frequently Asked <span>Questions</span></h2>
+        <p class="sub-heading">Everything you need to know about Freeispradius billing software.</p>
+        <style>
+            .faq-container { max-width: 900px; margin: 2rem auto 0; }
+            .faq-item { background: #1c1c1c; border: 1px solid #333; border-radius: 10px; margin-bottom: 1rem; overflow: hidden; }
+            .faq-question { padding: 1.2rem 1.5rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s; }
+            .faq-question:hover { background: #252525; }
+            .faq-question h4 { color: #fff; font-size: 1.1rem; margin: 0; font-weight: 500; }
+            .faq-question i { color: #00c4ff; font-size: 1.5rem; transition: transform 0.3s; }
+            .faq-answer { padding: 0 1.5rem; max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.4s ease; }
+            .faq-answer p { color: #aaa; line-height: 1.8; font-size: 1rem; }
+            .faq-item.active .faq-answer { max-height: 500px; padding: 0 1.5rem 1.2rem; }
+            .faq-item.active .faq-question i { transform: rotate(180deg); }
+        </style>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>How much does Freeispradius cost?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Freeispradius is completely <strong>free if your monthly sales are below Ksh 3,500</strong>. For ISPs with sales between Ksh 3,500 and Ksh 8,000, the Basic plan is Ksh 500/month. For larger ISPs with sales above Ksh 8,000, the Premium plan is Ksh 1,500/month. All plans include unlimited users and connections.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>Do I need my own server to use Freeispradius?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>No. Freeispradius is fully <strong>cloud-based</strong>. We host everything for you. You just need a MikroTik router and an internet connection. Your billing panel, database, and all data are hosted on our servers with 99.9% uptime. No server setup, no maintenance, no backups to worry about.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>Which routers does Freeispradius support?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Freeispradius works with <strong>MikroTik RouterOS</strong> for billing (Hotspot, PPPoE, Static IP). For remote CPE management via TR-069, we also support Ubiquiti, Tenda, TP-Link, Huawei, and Cambium devices. Any MikroTik router from the hAP lite to the CCR will work.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>How does M-Pesa payment work?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We support <strong>M-Pesa STK Push</strong>, Paybill, and Till Number integration. When a customer pays, the system automatically creates their account, assigns the plan, and connects them to the router. No manual work needed. You see every transaction in your dashboard with daily and monthly income reports.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>Can I manage multiple routers from one panel?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. You can add <strong>unlimited routers</strong> to your Freeispradius panel. Each router has its own plans, customers, and monitoring. You can filter your dashboard by router, sync customers to specific routers, bulk transfer customers between routers, and track revenue per router.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>What is customer roaming?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Roaming allows your customers to <strong>connect to any router in your network</strong> as long as their package is active. If a customer buys a plan on Router A and moves to Router B, they can still connect. The system tracks the roaming session automatically without creating duplicate records.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>Is there a limit on the number of customers?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>No limits at all.</strong> Whether you have 10 customers or 1 million, Freeispradius handles it. Our platform is optimized for large-scale ISPs with millions of records while still loading the dashboard in under 2 seconds. Unlimited users, unlimited routers, unlimited plans.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>How do I get started?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Just <strong>register a free account</strong> at register.ispledger.com. You'll get your own subdomain and dashboard instantly. Add your MikroTik router using our free VPN remote access, create your plans, set up M-Pesa, and start collecting payments. The whole setup takes under 10 minutes. Free installation support included.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>What happens when a customer's plan expires?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>The system <strong>automatically disconnects</strong> the customer from the router when their plan expires. Before expiry, it can send reminders via WhatsApp, SMS, or email. Once they pay again, they get reconnected automatically. You can also set up grace periods and FUP throttling instead of hard disconnection.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+                    <h4>Can my customers buy packages themselves?</h4>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. Customers can <strong>self-activate</strong> through your branded hotspot login page. They see available packages, pay via M-Pesa or voucher code, and get connected instantly. They can also log into the customer portal to check balance, view history, and raise support tickets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Schema for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does Freeispradius cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Freeispradius is completely free if your monthly sales are below Ksh 3,500. For ISPs with sales between Ksh 3,500 and Ksh 8,000, the Basic plan is Ksh 500/month. For larger ISPs with sales above Ksh 8,000, the Premium plan is Ksh 1,500/month. All plans include unlimited users and connections."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need my own server to use Freeispradius?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Freeispradius is fully cloud-based. We host everything for you. You just need a MikroTik router and an internet connection."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which routers does Freeispradius support?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Freeispradius works with MikroTik RouterOS for billing (Hotspot, PPPoE, Static IP). For remote CPE management via TR-069, we also support Ubiquiti, Tenda, TP-Link, Huawei, and Cambium devices."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does M-Pesa payment work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We support M-Pesa STK Push, Paybill, and Till Number integration. When a customer pays, the system automatically creates their account, assigns the plan, and connects them to the router."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I manage multiple routers from one panel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. You can add unlimited routers to your Freeispradius panel. Each router has its own plans, customers, and monitoring."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is customer roaming?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Roaming allows your customers to connect to any router in your network as long as their package is active. The system tracks the roaming session automatically without creating duplicate records."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is there a limit on the number of customers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No limits at all. Whether you have 10 customers or 1 million, Freeispradius handles it. Unlimited users, unlimited routers, unlimited plans."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I get started?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Register a free account at register.ispledger.com. You'll get your own subdomain and dashboard instantly. The whole setup takes under 10 minutes."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens when a customer's plan expires?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The system automatically disconnects the customer from the router when their plan expires. Before expiry, it sends reminders via WhatsApp, SMS, or email. Once they pay again, they get reconnected automatically."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can my customers buy packages themselves?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Customers can self-activate through your branded hotspot login page. They see available packages, pay via M-Pesa or voucher code, and get connected instantly."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Get Started CTA Section -->
+    <section class="services" id="get-started" style="text-align:center; padding:4rem 2rem;">
+        <h2 class="heading">Ready to Automate Your <span>ISP Business?</span></h2>
+        <p style="color:#aaa; max-width:700px; margin:0 auto 2rem; font-size:1.1rem; line-height:1.8;">
+            Join hundreds of ISPs across Kenya who are already using Freeispradius to collect M-Pesa payments automatically, manage customers effortlessly, and grow their networks faster. From Nairobi to the smallest trading center, we power Kenyan ISPs.
+        </p>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin-top:1.5rem;">
+            <a href="https://register.ispledger.com" class="btn" style="font-size:1.1rem; padding:0.8rem 2rem;">Register Free Account</a>
+            <a href="https://wa.me/254769023642?text=Hello%2C%20I%27m%20interested%20in%20Hotspot%20Kenya" class="btn" style="font-size:1.1rem; padding:0.8rem 2rem; background:#25D366;">WhatsApp Us</a>
+            <a href="https://www.trustpilot.com/review/freeispradius.com" target="_blank" class="trustpilot-btn" style="font-size:1rem; padding:0.8rem 1.5rem;">
+                <i class='bx bxs-star'></i> See Our Reviews
+            </a>
+        </div>
+    </section>
+
+    <style>
+        #visit-us {
+            padding: 4rem 9% 3rem;
+            background: #121212;
+        }
+        #visit-us .heading {
+            text-align: center;
+            color: #fff;
+            font-size: 2.2rem;
+            margin-bottom: .4rem;
+        }
+        #visit-us .sub-heading {
+            text-align: center;
+            color: #aaa;
+            font-size: 1rem;
+            margin-bottom: .5rem;
+        }
+        #visit-us .visit-gallery-inline {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            max-width: 1100px;
+            margin: 1.5rem auto 0;
+        }
+        #visit-us .visit-gallery-inline img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            background: #2a2a2a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            transition: transform .3s, box-shadow .3s;
+            cursor: pointer;
+        }
+        #visit-us .visit-gallery-inline img:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0,196,255,0.25);
+        }
+        #visit-us .visit-section-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 1.5rem auto 0;
+        }
+        #visit-us .visit-address,
+        #visit-us .visit-directions {
+            background: #1c1c1c;
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid #2a2a2a;
+        }
+        #visit-us .visit-address { border-left: 3px solid #00c4ff; }
+        #visit-us h3 {
+            color: #fff;
+            font-size: 1.15rem;
+            margin-bottom: .8rem;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        #visit-us .visit-address h3 i { color: #ff6b35; }
+        #visit-us .visit-directions h3 i { color: #00c4ff; }
+        #visit-us p {
+            color: #ccc;
+            font-size: 1rem;
+            line-height: 1.7;
+            margin: .3rem 0;
+        }
+        #visit-us strong { color: #00c4ff; }
+        #visit-us ol {
+            color: #ccc;
+            font-size: .98rem;
+            line-height: 1.75;
+            padding-left: 1.3rem;
+            margin: 0;
+        }
+        #visit-us ol li { margin-bottom: .4rem; }
+        #visit-us .visit-cta {
+            display: flex;
+            gap: .8rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1.8rem;
+        }
+        #visit-us .visit-cta a {
+            display: inline-flex;
+            align-items: center;
+            gap: .4rem;
+            padding: .8rem 1.4rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform .2s;
+        }
+        #visit-us .visit-cta a:hover { transform: translateY(-2px); }
+        #visit-us .visit-cta .map-link { background: #00c4ff; color: #000; }
+        #visit-us .visit-cta .call-link { background: #25D366; color: #fff; }
+        @media (max-width: 1024px) {
+            #visit-us .visit-gallery-inline { grid-template-columns: repeat(2, 1fr); }
+            #visit-us .visit-gallery-inline img { height: 240px; }
+        }
+        @media (max-width: 768px) {
+            #visit-us { padding: 3rem 1rem 2rem; }
+            #visit-us .visit-section-grid { grid-template-columns: 1fr; }
+            #visit-us .heading { font-size: 1.7rem; }
+            #visit-us .visit-gallery-inline { grid-template-columns: 1fr; gap: .8rem; }
+            #visit-us .visit-gallery-inline img { height: 220px; }
+        }
+    </style>
+
+    <section id="visit-us">
+        <h2 class="heading">Visit Us <span>Today</span></h2>
+        <p class="sub-heading">Walk into our office on Kenyatta Street and meet the team.</p>
+
+        <div class="visit-gallery-inline">
+            <img src="office1.png" alt="Freeispradius office reception at Sagaas Centre" width="600" height="400" loading="lazy" decoding="async">
+            <img src="office2.png" alt="Freeispradius workspace on Kenyatta Street" width="600" height="400" loading="lazy" decoding="async">
+            <img src="office3.jpg" alt="Freeispradius support team Sagaas Centre 1st floor" width="600" height="400" loading="lazy" decoding="async">
+            <img src="office4.jpg" alt="Freeispradius office Room 101 Sagaas Centre" width="600" height="400" loading="lazy" decoding="async">
+        </div>
+
+        <div class="visit-section-grid">
+            <div class="visit-address">
+                <h3><i class='bx bx-map-pin'></i> Our Address</h3>
+                <p><strong>Sagaas Centre</strong>, 1st Floor, Room 101</p>
+                <p><strong>Kenyatta Street</strong>, near Naivas Supermarket</p>
+                <p>Opposite the lift room on the 1st floor</p>
+                <p style="margin-top:.8rem; color:#999; font-size:.92rem;">Open Mon–Fri, 9:00am – 5:00pm. Walk-ins welcome.</p>
+            </div>
+
+            <div class="visit-directions">
+                <h3><i class='bx bx-current-location'></i> How to Find Us</h3>
+                <ol>
+                    <li>Head to <strong>Kenyatta Street</strong> — easy by matatu, bus, or Uber.</li>
+                    <li>Spot <strong>Naivas Supermarket</strong> — Sagaas Centre is right next to it.</li>
+                    <li>Enter Sagaas Centre and go up to the <strong>1st Floor</strong>.</li>
+                    <li>As you exit the lift, <strong>Room 101</strong> is directly opposite.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="visit-cta">
+            <a href="tel:0769023642" class="call-link">
+                <i class='bx bx-phone-call'></i> Call Before You Come
+            </a>
+            <a href="https://wa.me/254769023642?text=Hello%2C%20I%27d%20like%20to%20visit%20your%20office" target="_blank" rel="noopener" class="map-link">
+                <i class='bx bxl-whatsapp'></i> WhatsApp Us
+            </a>
+        </div>
+    </section>
+
+    <style>
+        /* Floating buttons fix */
+        .floating-btns {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 9999;
+        }
+        .floating-btns a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .floating-btns a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        .floating-btns .wa-btn {
+            background: #25D366;
+        }
+        .floating-btns .call-btn {
+            background: #00c4ff;
+        }
+        .floating-btns .visit-btn {
+            background: #ff6b35;
+            position: relative;
+        }
+        .floating-btns .visit-btn::after {
+            content: 'Visit Us';
+            position: absolute;
+            right: 64px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #1f242d;
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .3s;
+        }
+        .floating-btns .visit-btn:hover::after {
+            opacity: 1;
+        }
+        .floating-btns a i {
+            font-size: 28px;
+            color: #fff;
+        }
+        @media (max-width: 600px) {
+            .floating-btns .visit-btn::after { display: none; }
+        }
+
+        /* Mobile text size fixes */
+        @media (max-width: 768px) {
+            .home-content h1 {
+                font-size: 2.2rem !important;
+            }
+            .home-content h2 {
+                font-size: 1.4rem !important;
+            }
+            .home-content h3 {
+                font-size: 1.2rem !important;
+            }
+            .home-content p {
+                font-size: 1.05rem !important;
+                line-height: 1.8 !important;
+            }
+            .heading {
+                font-size: 1.8rem !important;
+            }
+            .sub-heading {
+                font-size: 1.05rem !important;
+            }
+            .about-content p,
+            .services-box p,
+            .feature-box p,
+            .try-now-box p {
+                font-size: 1.05rem !important;
+                line-height: 1.8 !important;
+            }
+            .about-content h3,
+            .services-box h3,
+            .try-now-box h3 {
+                font-size: 1.3rem !important;
+            }
+            .pricing-title {
+                font-size: 1.4rem !important;
+            }
+            .price {
+                font-size: 1.5rem !important;
+            }
+            .pricing-features li {
+                font-size: 1.05rem !important;
+                line-height: 1.7 !important;
+            }
+            .pricing-box p {
+                font-size: 1.05rem !important;
+            }
+            #why-best p {
+                font-size: 1.05rem !important;
+                padding: 0 0.5rem;
+            }
+            #why-best strong {
+                font-size: 1.05rem !important;
+            }
+            #comparison .feature-box h4,
+            #detailed-features .feature-box h4 {
+                font-size: 1.15rem !important;
+            }
+            .portfolio-layer h4 {
+                font-size: 1.2rem !important;
+            }
+            .portfolio-layer p {
+                font-size: 1rem !important;
+            }
+            .btn {
+                font-size: 1rem !important;
+                padding: 0.7rem 1.5rem !important;
+            }
+            /* Section padding on mobile */
+            section {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+            .services-container,
+            .features-container,
+            .try-now-container,
+            .portfolio-container,
+            .pricing-container,
+            .modules-container,
+            .supported-brands {
+                padding: 0 0.5rem !important;
+            }
+            .features-list h3 {
+                font-size: 1.5rem !important;
+                padding: 0 0.5rem;
+            }
+            .feature-box,
+            .try-now-box,
+            .services-box {
+                padding: 1.5rem !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .feature-box h4,
+            .try-now-box h3 {
+                font-size: 1.2rem !important;
+            }
+            .feature-box p {
+                font-size: 1rem !important;
+                line-height: 1.7 !important;
+            }
+            .pricing-box {
+                width: 100% !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 1.5rem !important;
+            }
+            .wispgate,
+            .modules-details {
+                padding: 1.5rem !important;
+            }
+            .module h3 {
+                font-size: 1.2rem !important;
+            }
+            .module li {
+                font-size: 1rem !important;
+            }
+            #why-best .about-content {
+                padding: 0 0.5rem !important;
+            }
+            #comparison p,
+            #coverage p {
+                font-size: 1rem !important;
+                padding: 0 0.5rem;
+            }
+            /* Footer mobile */
+            .site-footer h3 {
+                font-size: 1.3rem !important;
+            }
+            .site-footer p,
+            .site-footer a,
+            .site-footer li {
+                font-size: 1.05rem !important;
+            }
+            .site-footer .ft-about-phone {
+                font-size: 1.15rem !important;
+            }
+            .site-footer .ft-bottom p {
+                font-size: 1rem !important;
+            }
+            .site-footer .ft-social-icons a {
+                width: 46px;
+                height: 46px;
+                font-size: 1.4rem;
+            }
+            .floating-btns {
+                bottom: 15px;
+                right: 15px;
+            }
+            .floating-btns a {
+                width: 52px;
+                height: 52px;
+            }
+            .floating-btns a i {
+                font-size: 26px;
+            }
+        }
+    </style>
+
+    <div class="floating-btns">
+        <a href="#visit-us" class="visit-btn" title="Visit Our Office" aria-label="Visit our office on Kenyatta Street">
+            <i class='bx bx-buildings'></i>
+        </a>
+        <a href="https://wa.me/254769023642?text=Hello%2C%20I%27m%20interested%20in%20Hotspot%20Kenya" target="_blank" class="wa-btn" title="Chat on WhatsApp">
+            <i class='bx bxl-whatsapp'></i>
+        </a>
+        <a href="tel:0769023642" class="call-btn" title="Call Us">
+            <i class='bx bx-phone-call'></i>
+        </a>
+    </div>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+
+    <script>
+        //autoplay video
+        document.addEventListener("DOMContentLoaded", function() {
+            var videoSection = document.querySelector(".video-section");
+            var videoIframe = document.querySelector("#video-background iframe");
+
+            var observer = new IntersectionObserver(function(entries) {
+                if (entries[0].isIntersecting) {
+                    videoIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                } else {
+                    videoIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                }
+            }, { threshold: 0.5 });
+
+            observer.observe(videoSection);
+        });
+    </script>
+
+    <script>
+        // Swap every standalone "Kenya"/"Kenyan" in visible text with the user's country.
+        // Word boundaries (\b) protect words like "Kenyatta" from being touched.
+        function swapCountryInText(country) {
+            if (!country || country === 'Kenya') return;
+            const skipTags = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, TEXTAREA: 1, INPUT: 1 };
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+                acceptNode: function (n) {
+                    if (!n.parentNode || skipTags[n.parentNode.nodeName]) return NodeFilter.FILTER_REJECT;
+                    return /\bKenyan?\b/.test(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+                }
+            });
+            const nodes = [];
+            let n;
+            while ((n = walker.nextNode())) nodes.push(n);
+            nodes.forEach(function (node) {
+                node.nodeValue = node.nodeValue
+                    .replace(/\bKenyan\b/g, country)
+                    .replace(/\bKenya\b/g, country);
+            });
+            // Also fill the explicit placeholders inside the free pricing card
+            document.querySelectorAll('.dyn-country').forEach(function (el) {
+                el.textContent = country;
+            });
+        }
+
+        function applyPricingForCountry(country) {
+            const kenyaBox = document.getElementById('kenya-pricing');
+            const freeBox = document.getElementById('non-kenya-pricing');
+            const heading = document.getElementById('pricing-heading');
+            const subheading = document.getElementById('pricing-subheading');
+            if (country === 'Kenya') {
+                if (kenyaBox) kenyaBox.style.display = '';
+                if (freeBox) freeBox.style.display = 'none';
+            } else {
+                if (kenyaBox) kenyaBox.style.display = 'none';
+                if (freeBox) freeBox.style.display = '';
+                if (heading) heading.innerHTML = 'How Much Does <span>It Cost?</span>';
+                if (subheading) subheading.style.display = 'none';
+            }
+        }
+
+        // Rewrite every wa.me link's prefilled text to mention the visitor's country.
+        function patchWhatsAppLinks(country) {
+            const safeCountry = country || 'your country';
+            const message = "Hello, I'm interested in your ISP software from " + safeCountry;
+            const encoded = encodeURIComponent(message);
+            document.querySelectorAll('a[href*="wa.me/"]').forEach(function (link) {
+                try {
+                    const url = new URL(link.href);
+                    url.searchParams.set('text', message);
+                    link.href = url.toString();
+                } catch (e) {
+                    // Fallback for browsers that choke on URL with relative refs
+                    const base = link.href.split('?')[0];
+                    link.href = base + '?text=' + encoded;
+                }
+            });
+        }
+
+        function updateCountryText(country) {
+            const userCountryElement = document.getElementById('user-country');
+            if (userCountryElement) userCountryElement.textContent = country;
+
+            // Update the <title> tag
+            const titleElement = document.querySelector('title');
+            if (titleElement) titleElement.textContent = `Free Isp Billing Software in ${country}`;
+        }
+
+        function applyCountry(country) {
+            console.log('Applying country:', country);
+            applyPricingForCountry(country);
+            swapCountryInText(country);
+            patchWhatsAppLinks(country);
+            updateCountryText(country);
+        }
+
+        function getUserCountry() {
+            // Manual override for testing: append ?country=Nigeria to the URL
+            const override = new URLSearchParams(location.search).get('country');
+            if (override) {
+                applyCountry(override);
+                return;
+            }
+            fetch('https://api.bigdatacloud.net/data/reverse-geocode-client')
+                .then(response => response.json())
+                .then(data => {
+                    applyCountry(data.countryName || 'Kenya');
+                })
+                .catch(error => {
+                    console.error('Country lookup failed:', error);
+                    applyCountry('Kenya');
+                });
+        }
+        
+        function updatePrices(country) {
+            const priceMappings = {
+                'South Africa': {
+                    gold: { regular: 'ZAR 200', firstMonth: 'ZAR 40' },
+                    opal: { regular: 'ZAR 200', firstMonth: 'ZAR 40' },
+                    pearl: { regular: 'ZAR 1,000', firstMonth: 'ZAR 40' },
+                    emerald: { regular: 'ZAR 3,000', firstMonth: 'ZAR 40' },
+                    ruby: { regular: 'ZAR 6,000', firstMonth: 'ZAR 40' },
+                },
+                Uganda: {
+                    gold: { regular: 'KES 500', firstMonth: 'KES 250' },
+                    opal: { regular: 'KES 1,500', firstMonth: 'KES 250' },
+                    pearl: { regular: 'KES 5,000', firstMonth: 'KES 250' },
+                    emerald: { regular: 'KES 15,000', firstMonth: 'KES 250' },
+                    ruby: { regular: 'KES 30,000', firstMonth: 'KES 250' },
+                },
+                Ghana: {
+                    gold: { regular: 'GHS 150', firstMonth: 'GHS 30' },
+                    opal: { regular: 'GHS 150', firstMonth: 'GHS 30' },
+                    pearl: { regular: 'GHS 700', firstMonth: 'GHS 30' },
+                    emerald: { regular: 'GHS 2,000', firstMonth: 'GHS 30' },
+                    ruby: { regular: 'GHS 4,000', firstMonth: 'GHS 30' },
+                },
+                Nigeria: {
+                    gold: { regular: 'NGN 15,000', firstMonth: 'NGN 3,000' },
+                    opal: { regular: 'NGN 15,000', firstMonth: 'NGN 3,000' },
+                    pearl: { regular: 'NGN 70,000', firstMonth: 'NGN 3,000' },
+                    emerald: { regular: 'NGN 200,000', firstMonth: 'NGN 3,000' },
+                    ruby: { regular: 'NGN 400,000', firstMonth: 'NGN 3,000' },
+                },
+                Tanzania: {
+                    gold: { regular: 'TZS 25,000', firstMonth: 'TZS 5,000' },
+                    opal: { regular: 'TZS 25,000', firstMonth: 'TZS 5,000' },
+                    pearl: { regular: 'TZS 130,000', firstMonth: 'TZS 5,000' },
+                    emerald: { regular: 'TZS 350,000', firstMonth: 'TZS 5,000' },
+                    ruby: { regular: 'TZS 700,000', firstMonth: 'TZS 5,000' },
+                },
+                Rwanda: {
+                    gold: { regular: 'RWF 13,000', firstMonth: 'RWF 2,500' },
+                    opal: { regular: 'RWF 13,000', firstMonth: 'RWF 2,500' },
+                    pearl: { regular: 'RWF 65,000', firstMonth: 'RWF 2,500' },
+                    emerald: { regular: 'RWF 200,000', firstMonth: 'RWF 2,500' },
+                    ruby: { regular: 'RWF 400,000', firstMonth: 'RWF 2,500' },
+                },
+                'South Sudan': {
+                    gold: { regular: 'SSP 2,500', firstMonth: 'SSP 300' },
+                    opal: { regular: 'SSP 2,500', firstMonth: 'SSP 300' },
+                    pearl: { regular: 'SSP 6,000', firstMonth: 'SSP 300' },
+                    emerald: { regular: 'SSP 20,000', firstMonth: 'SSP 300' },
+                    ruby: { regular: 'SSP 40,000', firstMonth: 'SSP 300' },
+                },
+                Malawi: {
+                    gold: { regular: 'MWK 25,000', firstMonth: 'MWK 3,500' },
+                    opal: { regular: 'MWK 25,000', firstMonth: 'MWK 3,500' },
+                    pearl: { regular: 'MWK 100,000', firstMonth: 'MWK 3,500' },
+                    emerald: { regular: 'MWK 260,000', firstMonth: 'MWK 3,500' },
+                    ruby: { regular: 'MWK 500,000', firstMonth: 'MWK 3,500' },
+                },
+                Cameroon: {
+                    gold: { regular: 'XAF 7,000', firstMonth: 'XAF 1,500' },
+                    opal: { regular: 'XAF 7,000', firstMonth: 'XAF 1,500' },
+                    pearl: { regular: 'XAF 30,000', firstMonth: 'XAF 1,500' },
+                    emerald: { regular: 'XAF 90,000', firstMonth: 'XAF 1,500' },
+                    ruby: { regular: 'XAF 180,000', firstMonth: 'XAF 1,500' },
+                },
+                'United States': {
+                    gold: { regular: '$10', firstMonth: '$2' },
+                    opal: { regular: '$10', firstMonth: '$2' },
+                    pearl: { regular: '$50', firstMonth: '$2' },
+                    emerald: { regular: '$150', firstMonth: '$2' },
+                    ruby: { regular: '$300', firstMonth: '$2' },
+                },
+            };
+
+            if (priceMappings.hasOwnProperty(country)) {
+                const prices = priceMappings[country];
+                document.getElementById('price-gold').textContent = prices.gold.regular + ' / Month';
+                document.getElementById('price-gold-first-month').textContent = prices.gold.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-opal').textContent = prices.opal.regular + ' / Month';
+                document.getElementById('price-opal-first-month').textContent = prices.opal.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-pearl').textContent = prices.pearl.regular + ' / Month';
+                document.getElementById('price-pearl-first-month').textContent = prices.pearl.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-emerald').textContent = prices.emerald.regular + ' / Month';
+                document.getElementById('price-emerald-first-month').textContent = prices.emerald.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-ruby').textContent = prices.ruby.regular + ' / Month';
+                document.getElementById('price-ruby-first-month').textContent = prices.ruby.firstMonth + ' - Unlimited Clients';
+            } else {
+                console.log('Prices not available for the user\'s country. Fallback to the United States.');
+                const prices = priceMappings['United States'];
+                document.getElementById('price-gold').textContent = prices.gold.regular + ' / Month';
+                document.getElementById('price-gold-first-month').textContent = prices.gold.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-opal').textContent = prices.opal.regular + ' / Month';
+                document.getElementById('price-opal-first-month').textContent = prices.opal.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-pearl').textContent = prices.pearl.regular + ' / Month';
+                document.getElementById('price-pearl-first-month').textContent = prices.pearl.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-emerald').textContent = prices.emerald.regular + ' / Month';
+                document.getElementById('price-emerald-first-month').textContent = prices.emerald.firstMonth + ' - Unlimited Clients';
+                document.getElementById('price-ruby').textContent = prices.ruby.regular + ' / Month';
+                document.getElementById('price-ruby-first-month').textContent = prices.ruby.firstMonth + ' - Unlimited Clients';
+            }
+        }
+
+        // Call the getUserCountry function when the page loads
+        getUserCountry();
+    </script>
+
+    <!-- Footer Section -->
+    <style>
+        .site-footer {
+            background: #0a0a0a;
+            padding: 0;
+            margin-top: 2rem;
+        }
+        .site-footer .ft-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem 2rem;
+        }
+        .site-footer h3 {
+            color: #00c4ff;
+            font-size: 1.2rem;
+            margin-bottom: 1.2rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        .site-footer h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background: #00c4ff;
+        }
+        .site-footer p, .site-footer a, .site-footer li {
+            color: #aaa;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .site-footer a:hover {
+            color: #00c4ff;
+        }
+        .site-footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .site-footer ul li {
+            margin-bottom: 0.5rem;
+        }
+        .site-footer ul li a {
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .site-footer .ft-about-phone {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            color: #00c4ff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+        .site-footer .ft-social-icons {
+            display: flex;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+        .site-footer .ft-social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #1a1a2e;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: background 0.3s, transform 0.3s;
+            text-decoration: none;
+        }
+        .site-footer .ft-social-icons a:hover {
+            background: #00c4ff;
+            transform: translateY(-3px);
+        }
+        .site-footer .ft-bottom {
+            border-top: 1px solid #222;
+            text-align: center;
+            padding: 1.2rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .site-footer .ft-bottom p {
+            margin: 0.2rem 0;
+            font-size: 0.85rem;
+            color: #666;
+        }
+        .site-footer .ft-bottom a {
+            color: #00c4ff;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .site-footer .ft-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 2rem 1.5rem 1.5rem;
+            }
+        }
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .site-footer .ft-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+
+    <footer class="site-footer">
+        <div class="ft-grid">
+            <div>
+                <h3>Freeispradius</h3>
+                <p>The best AI-powered ISP billing software for managing MikroTik, PPPoE, Static IP, and Hotspot services. Trusted by hundreds of ISPs across Africa.</p>
+                <a href="tel:0769023642" class="ft-about-phone"><i class='bx bx-phone-call'></i> 0769 023 642</a>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#get-started">Get Started</a></li>
+                    <li><a href="https://hotspots.co.ke" target="_blank">Hotspot Billing System</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Free Tools</h3>
+                <ul>
+                    <li><a href="https://register.ispledger.com" target="_blank">Free Billing Account</a></li>
+                    <li><a href="https://whatsapp.ispledger.com" target="_blank">WhatsApp Gateway</a></li>
+                    <li><a href="https://vpn.ispledger.com" target="_blank">Free Remote Access</a></li>
+                    <li><a href="https://sms.ispledger.com" target="_blank">SMS Gateway</a></li>
+                    <li><a href="https://tr069.net/" target="_blank">Free TR-069</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <div class="ft-social-icons">
+                    <a href="https://web.facebook.com/p/Free-Isp-Radius-61555020699337/" target="_blank" title="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.youtube.com/@FreeIspRadius" target="_blank" title="YouTube"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.tiktok.com/@freeispradius" target="_blank" title="TikTok"><i class='bx bxl-tiktok'></i></a>
+                </div>
+                <a href="https://www.trustpilot.com/review/freeispradius.com" target="_blank" rel="noopener" class="trustpilot-btn" style="font-size:0.85rem; padding:0.5rem 1rem;">
+                    <i class='bx bxs-star'></i> Review us on Trustpilot
+                </a>
+            </div>
+        </div>
+
+        <div class="ft-bottom">
+            <p>&copy; 2017 - 2026 Freeispradius. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+</body>
+
+</html>
